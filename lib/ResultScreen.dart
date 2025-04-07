@@ -27,11 +27,11 @@ class ResultScreen extends StatelessWidget {
         ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context, false), // Cancel
+            onPressed: () => Navigator.pop(context, false), 
             child: const Text('Cancel', style: TextStyle(color: Colors.blue)),
           ),
           TextButton(
-            onPressed: () => Navigator.pop(context, true), // Confirm
+            onPressed: () => Navigator.pop(context, true),
             child: const Text('Reset', style: TextStyle(color: Colors.red)),
           ),
         ],
@@ -60,7 +60,7 @@ class ResultScreen extends StatelessWidget {
       }
 
       print('Starting PDF generation...');
-      final pdfDoc = pw.Document(); // This is where the error occurs
+      final pdfDoc = pw.Document(); 
 
       print('Document created, adding pages...');
       for (var result in verificationResults) {
