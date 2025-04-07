@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:pdf/pdf.dart' as pdf; // For PdfColors
-import 'package:pdf/widgets.dart' as pw; // For PDF widgets
+import 'package:pdf/pdf.dart' as pdf; 
+import 'package:pdf/widgets.dart' as pw; 
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 import 'FaceVerificationScreen.dart';
